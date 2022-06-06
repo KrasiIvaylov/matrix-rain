@@ -13,3 +13,6 @@ export function randomInArray(arr){
   return arr[index];
 }
  
+export function generateArray( length, callbackFn ) {
+  return [ ...(new Array( length )) ].map( callbackFn )
+}
