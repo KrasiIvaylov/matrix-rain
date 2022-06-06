@@ -5,8 +5,6 @@ import {
   generateArray
 } from "./app/utils.js";
 import matrixCharacters from "./characters/matrixCharacters.string.js";
-import koreanCharacters from "./characters/koreanCharacters.string.js";
-import zeroOneCharacters from "./characters/zeroOneCharacters.string.js";
 
 
 class MatrixEffect {
